@@ -1,15 +1,15 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 
 #######################Description##############################
 #They take a matrix, creating sub-functions that manipulate it, and create a cache of it,
 # for that when one has already calculated the inverse value of a nxn matrix, does not need
 #repeat the same process for another identical matrix.
+####################################################################
 
 
 
-## Write a short comment describing this function
+
+###########################The function##########################
 #it create sub functions that work on the matrix, just like other object oriente programming
 # langua like java, but with the scoping of R, so that one need to compute the cache before
 # getting the actual inverse.
@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+###################################### The function ##############################
 #it verifies if the value already been stored on the parent function, and gets the cache data if so.
 # else it's gonna calculate by the solve function.
 cacheSolve <- function(x, ...) {
